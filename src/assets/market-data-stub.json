@@ -1,0 +1,74 @@
+[
+    {
+        "LAST_TRADED_PRICE": 0.5,
+        "BID_PRICE": 0.12,
+        "SELL_LIMIT": 5000,
+        "TICKER": "MSFT",
+        "MAX_PRICE_SHIFT": 1,
+        "ASK_PRICE": 0.5,
+        "BUY_LIMIT": 10000
+    },
+    {
+        "LAST_TRADED_PRICE": 2.0,
+        "BID_PRICE": 2,
+        "SELL_LIMIT": 5000,
+        "TICKER": "NFLX",
+        "MAX_PRICE_SHIFT": 1,
+        "ASK_PRICE": 2.0,
+        "BUY_LIMIT": 10000
+    },
+    {
+        "LAST_TRADED_PRICE": 0,
+        "BID_PRICE": 1.5,
+        "SELL_LIMIT": 5000,
+        "TICKER": "GOOGL",
+        "MAX_PRICE_SHIFT": 150,
+        "ASK_PRICE": 0,
+        "BUY_LIMIT": 10000
+    },
+    {
+        "LAST_TRADED_PRICE": 0,
+        "BID_PRICE": 0,
+        "SELL_LIMIT": 5000,
+        "TICKER": "AAPL",
+        "MAX_PRICE_SHIFT": 15,
+        "ASK_PRICE": 0,
+        "BUY_LIMIT": 10000
+    },
+    {
+        "LAST_TRADED_PRICE": 0.11,
+        "BID_PRICE": 0.1,
+        "SELL_LIMIT": 5000,
+        "TICKER": "TSLA",
+        "MAX_PRICE_SHIFT": 1,
+        "ASK_PRICE": 0.11,
+        "BUY_LIMIT": 10000
+    },
+    {
+        "LAST_TRADED_PRICE": 0.7,
+        "BID_PRICE": 0.20,
+        "SELL_LIMIT": 5000,
+        "TICKER": "IBM",
+        "MAX_PRICE_SHIFT": 1,
+        "ASK_PRICE": 0.12,
+        "BUY_LIMIT": 10000
+    },
+    {
+        "LAST_TRADED_PRICE": 0,
+        "BID_PRICE": 0,
+        "SELL_LIMIT": 5000,
+        "TICKER": "ORCL",
+        "MAX_PRICE_SHIFT": 5,
+        "ASK_PRICE": 0,
+        "BUY_LIMIT": 10000
+    },
+    {
+        "LAST_TRADED_PRICE": 1.1,
+        "BID_PRICE": 3,
+        "SELL_LIMIT": 5000,
+        "TICKER": "AMZN",
+        "MAX_PRICE_SHIFT": 1,
+        "ASK_PRICE": 1.1,
+        "BUY_LIMIT": 10000
+    }
+]

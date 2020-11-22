@@ -1,0 +1,22 @@
+<p> Latest Market Data </p>
+
+<div class="cart-item">
+
+  <span>TICKER </span>
+  <span> BID_PRICE</span>
+  <span> ASK_PRICE</span>
+  <span> LAST_TRADED_PRICE</span>
+
+</div>
+
+<div class="cart-item" *ngFor="let md of latestMarketData | async">
+
+  <span>{{ md.TICKER }}</span>
+  <span>{{ md.BID_PRICE | currency }}</span>
+  <span>{{ md.ASK_PRICE | currency }}</span>
+  <span>{{ md.LAST_TRADED_PRICE | currency }}</span>
+
+  
+</div>
+
+<p>Lgin to Trade</p>
