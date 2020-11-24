@@ -9,15 +9,17 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { MarketDataComponent } from './market-data/market-data.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { OrderComponent } from './order/order.component';
 
 
 @NgModule({
-  declarations: [			
+  declarations: [				
     AppComponent,
     TopBarComponent,
       MarketDataComponent,
       LoginComponent,
-      SignupComponent
+      SignupComponent,
+      OrderComponent
    ],
   imports: [
     BrowserModule,

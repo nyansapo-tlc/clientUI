@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
 
   onSubmit(formData: any){
     console.log(formData);
-    window.alert("logged in as: ", formData)
+    console.log("logged in as: ", formData)
   }
 
 }

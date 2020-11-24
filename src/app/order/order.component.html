@@ -1,0 +1,28 @@
+<p>
+  Place Order
+</p>
+<form [formGroup]="orderForm" (ngSubmit)="onSubmit(orderForm.value)">
+
+  <div>
+    <label for="product">product</label>
+    <input type="text" id="product" formControlName="product" required />
+  </div>
+  
+  <div>
+    <label for="quantity">quantity</label>
+    <input type="text" id="quantity" formControlName="quantity" required />
+  </div>
+
+  <div>
+    <label for="price">price</label>
+    <input type="text" id="price" formControlName="price" required />
+  </div>
+
+  <div>
+    <label for="side">side</label>
+    <input type="text" id="side" formControlName="side" required />
+  </div>
+
+
+  <button class="button" type="submit">Place Order</button>
+</form>
