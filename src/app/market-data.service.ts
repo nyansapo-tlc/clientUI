@@ -7,7 +7,7 @@ export class MarketDataService {
   constructor(private httpClient: HttpClient) { };
 
   getLatestMarketData(){
-    return this.httpClient.get('/assets/market-data-stub.json')
+    return this.httpClient.get('http://localhost:8090/md')
   }
   
 }
