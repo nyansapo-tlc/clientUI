@@ -27,10 +27,11 @@ export class OrderComponent implements OnInit {
 
   onSubmit(formData: any){
     console.log("Submitted", formData)
-    var orderId = this.orderService.placeOrder(formData);
-    var land;
-    orderId.subscribe((result)=>land = result)
-    window.alert(land);
+    var orderStatus = this.orderService.placeOrder(formData);
+    orderStatus.subscribe((orderId)=> {
+      window.alert("OrderID: " + orderId)
+    })
+
   }
 
 }

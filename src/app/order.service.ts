@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 @Injectable({ providedIn: 'root' })
 export class OrderService {
 
-  private BASE: String = "localhost:8090";
+  private BASE: String = "http://localhost:8090";
 
 
   constructor(private httpClient: HttpClient) { }
