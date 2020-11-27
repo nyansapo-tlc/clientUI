@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 @Injectable({ providedIn: 'root' })
 export class OrderService {
 
-  private BASE: String = "http://localhost:8090";
+  private BASE: String = "https://exchange-connectivity1.herokuapp.com/";
 
 
   constructor(private httpClient: HttpClient) { }

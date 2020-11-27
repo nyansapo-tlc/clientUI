@@ -7,7 +7,7 @@ export class MarketDataService {
   constructor(private httpClient: HttpClient) { };
 
   getLatestMarketData(){
-    return this.httpClient.get('http://localhost:8090/md')
+    return this.httpClient.get('https://exchange-connectivity1.herokuapp.com/')
   }
   
 }
